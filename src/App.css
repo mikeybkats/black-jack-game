@@ -1,20 +1,39 @@
 .App {
   text-align: center; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
-
-.App-header {
+.title-section {
+  position: relative;
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white; }
+  .title-section h1 {
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0 0 0;
+    max-width: 200px;
+    height: 50px;
+    line-height: 0px;
+    border: 1px solid white; }
 
 .App-intro {
   font-size: large; }
 
-@keyframes App-logo-spin {
+.game-board-contents {
+  display: block;
+  margin: 0px auto;
+  max-width: 300px; }
+
+.hand {
+  position: relative;
+  height: 200px; }
+  .hand img {
+    max-width: 100px;
+    position: relative;
+    padding: 20px; }
+
+@keyframes logo-spin {
   from {
     transform: rotate(0deg); }
   to {
